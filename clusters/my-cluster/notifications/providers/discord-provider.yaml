@@ -3,7 +3,7 @@ apiVersion: notification.toolkit.fluxcd.io/v1beta2
 kind: Provider
 metadata:
   name: discord
-  namespace: flux-system
+  namespace: default
 spec:
   address: https://discord.com/api/webhooks/1169096239942475877/6mYgaGbdHgoC5ns6STHn1F7Ld7EHzM6QwXaXWjlOmU43UAeS1AP7OIro0bVm96NUa8kV
   channel: gitops-lab
